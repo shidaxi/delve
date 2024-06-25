@@ -1,5 +1,5 @@
 builds:
-  - main: .
+  - main: ./cmd/dlv
     ldflags: -s -w -X app/config.Version.REVISION={{.Commit}}
     goos:
       - darwin
